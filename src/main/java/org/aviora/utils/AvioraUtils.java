@@ -29,7 +29,13 @@ public class AvioraUtils {
 	 * @since 1.0
 	 */
 	public static String getBanner(String name) {
-		return "<blue>Плагин %plugin% by RitzAtemo.".replace("%plugin%", name);
+		return ("""
+				
+				
+				<gray>=== <blue>Plugin by RitzAtemo <gray>===
+				
+				<green>+ <gray>Plugin: %plugin%
+				""").replace("%plugin%", name);
 	}
 
 	/**
@@ -40,7 +46,7 @@ public class AvioraUtils {
 	 * @since 1.0
 	 */
 	public static String getEnabled(String name) {
-		return "<green>Плагин %plugin% включен!".replace("%plugin%", name);
+		return "<green>Plugin <blue>%plugin% <green>enabled succesfuly!".replace("%plugin%", name);
 	}
 
 	/**
@@ -51,7 +57,7 @@ public class AvioraUtils {
 	 * @since 1.0
 	 */
 	public static String getDisabled(String name) {
-		return "<red>Плагин %plugin% выключен.".replace("%plugin%", name);
+		return "<red>Plugin <blue>%plugin% <red>disabled. Goodbye :(".replace("%plugin%", name);
 	}
 
 	/**
