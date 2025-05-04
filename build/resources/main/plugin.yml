@@ -1,0 +1,4 @@
+name: AvioraPluginCore
+version: '1.0-SNAPSHOT'
+main: org.aviora.avioraPluginCore.AvioraPluginCore
+api-version: '1.21'
