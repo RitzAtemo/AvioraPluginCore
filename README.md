@@ -1,0 +1,1 @@
+# Aviora Core (PaperMC plugin)
